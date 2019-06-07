@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="292.0" prefWidth="557.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="189.0" layoutY="56.0" text="Login form">
+         <font>
+            <Font name="Sitka Small" size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="130.0" text="Login">
+         <font>
+            <Font name="Sitka Small" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="206.0" text="Password">
+         <font>
+            <Font name="Sitka Small" size="20.0" />
+         </font>
+      </Label>
+      <TextField layoutX="150.0" layoutY="129.0" prefHeight="30.0" prefWidth="350.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <PasswordField layoutX="150.0" layoutY="205.0" prefHeight="30.0" prefWidth="350.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </PasswordField>
+   </children>
+</AnchorPane>
